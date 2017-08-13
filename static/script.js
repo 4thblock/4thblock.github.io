@@ -3,7 +3,7 @@ var camera = new THREE.PerspectiveCamera(75, window.innerWidth/ window.innerHeig
 camera.target = new THREE.Vector3(0, 0, 0);
 camera.lookAt(camera.target);
 var geometry = new THREE.SphereGeometry(500, 60, 40);
-var texture = new THREE.TextureLoader().load('/common/pano.jpg');
+var texture = new THREE.TextureLoader().load('day1.jpg');
 
 var controls = new THREE.VRControls(camera);
 controls.standing = true;
